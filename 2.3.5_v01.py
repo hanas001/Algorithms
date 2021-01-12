@@ -24,11 +24,11 @@ b = int((ab[-1]))   #assign last element of the list to b and convirt to integer
 # step = 0    #to count steps
 
 # if a == 0 then return b
-if a == 0:
+if not a:
     gcd = b
 
 # if b == 0 then return a
-elif b == 0:
+elif not b:
     gcd = a
 
 
